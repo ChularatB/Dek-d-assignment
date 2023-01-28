@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="sty.css">
+</head>
+
+<body>
+    <h1 style="text-align: center; color:blue;">Slideshow</h1>
+    <div class="slideshow">
+
+        <div class="mySlides fade">
+            <img src="img/city.jpg">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="img/forest.jpg">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="img/mountain.jpg">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="img/ocean.jpg">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="img/winter.jpg">
+        </div>
+
+        <a class="pre" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+    </div>
+    <br>
+
+    <div class="Dots">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+    </div>
+</body>
+<script src="JSslide.js"></script>
+</html>
